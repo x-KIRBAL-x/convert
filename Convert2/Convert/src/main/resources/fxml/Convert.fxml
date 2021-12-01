@@ -24,7 +24,7 @@
                 </Label>
             </children>
         </VBox>
-        <HBox layoutX="41.0" layoutY="398.0" prefHeight="180.0" prefWidth="440.0">
+        <HBox layoutX="338.0" layoutY="120.0" prefHeight="180.0" prefWidth="440.0">
             <children>
                 <VBox prefHeight="180.0" prefWidth="110.0">
                     <children>
@@ -95,7 +95,9 @@
             <font>
                 <Font size="16.0" />
             </font></Label>
-        <Button fx:id="fx_convert" layoutX="199.0" layoutY="352.0" mnemonicParsing="false" text="Convert" onAction="#Convert"/>
+        <Button fx:id="fx_convert" layoutX="199.0" layoutY="352.0" mnemonicParsing="false" onAction="#Convert" text="Convert" />
+      <Label fx:id="fx_hibacurrency" layoutX="50.0" layoutY="245.0" prefHeight="34.0" prefWidth="129.0" text="1 és 6 között kell lehet!" textAlignment="CENTER" textFill="#fc0101" />
+      <Label fx:id="fx_hibaamount" layoutX="50.0" layoutY="397.0" prefHeight="17.0" prefWidth="129.0" text="szám nem lehet negatív!" textFill="RED" />
     </children>
 
 </AnchorPane>
